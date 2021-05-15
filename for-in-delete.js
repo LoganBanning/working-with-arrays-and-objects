@@ -39,11 +39,11 @@ for(var key in values) {
   Inside the function showValues, write a for in loop that concatenates each of the property values and returns the concatenated string.
 */
 
-// function showValues( obj ) {
-//   for(var key in values){
-//     return key;
-//   }
-// }
+function showValues( values ) {
+  for(var key in values[key]){
+    return key + " ";
+  }
+}
 
 
 
@@ -74,7 +74,11 @@ for(var key in values) {
 */
 
 //Code Here
-// function double()
+// function double(object) {
+//   for (index, value) in object.enumerated() {
+//     object[index] = value * 2
+//   }
+// }
 
 
 ////////// PROBLEM 4 //////////
@@ -88,7 +92,14 @@ for(var key in values) {
 */
 
 //Code Here
-
+// function secrets(obj) {
+//   let empty = '';
+//   for(let key in value){
+//     if(key includes('sh') {
+//       value[key] + empty;
+//     }) return obj;
+//   }
+// }
 
 
 /* 
@@ -119,7 +130,10 @@ for(var key in values) {
 */
 
 //Code Here
-
+// function removePassword(object) {
+//   delete object.password;
+//   return removePassword;
+// }
 
 
 ////////// PROBLEM 6 //////////
@@ -138,7 +152,11 @@ var deleteTheBigNumbers = {
 */
 
 //Code Here
-
+// for(let key in values) {
+//   if(key > 100) {
+//     return key;
+//   }
+// }
 
 
 ////////// PROBLEM 7 //////////
@@ -151,7 +169,14 @@ var deleteTheBigNumbers = {
 */
 
 //Code Here
-
+// function startsWithK(object) {
+//   for(let key in values) {
+//     if(key[0] === "k") {
+//       delete property;
+//     }
+//     return object;
+//   }
+// }
 
 
 ////////// PROBLEM 8 //////////
@@ -166,5 +191,14 @@ var deleteTheBigNumbers = {
 */
 
 //Code Here
-
+function hiddenTreasure(object) {
+  for(let key in values){
+    if(value[key].includes('treasure')) {
+      return object;
+    } else if(
+      delete value[key];
+    )
+  }
+}
+hiddenTreasure;
 

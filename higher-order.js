@@ -95,8 +95,7 @@ const monstersInYourPocket = [{"monster":"Bulbabunny","CP":156},{"monster":"Bulb
 */
 
 //Code Here
-let myStrongest // = monstersInYourPocket.filter(/* Provide Your Callback Here */)
-
+// let myStrongest = monstersInYourPocket.filter(number => parseInt(number) > 200);
 
 
 ////////// PROBLEM 5 //////////

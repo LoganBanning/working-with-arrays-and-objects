@@ -59,17 +59,17 @@ function greeting( obj ) {
 */
 
 //Code Here
-// function totalPopulation(let states = {
-//   utah: utah,
-//   california: california,
-//   texas: texas,
-//   arizona: arizona,
-// }){
-//   let {utah} = states;
-//   let {california} = states;
-//   let {texas} = states;
-//   let {arizona} = states;
-// }
+function totalPopulation(object){
+  let utah = {utah};
+  let california = {california};
+  let texas = {texas};
+  let arizona = {arizona};
+  let sum = utah + california + texas + arizona;
+  return sum;
+  
+}
+totalPopulation(object);
+
 
 // totalPopulation(utah + california + texas + arizona)
 
