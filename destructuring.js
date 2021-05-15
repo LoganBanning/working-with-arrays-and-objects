@@ -22,7 +22,10 @@ var carDetails = {
 */
 
 //Code Here
-
+let {color} = carDetails;
+let {make} = carDetails;
+let {model} = carDetails;
+let {year} = carDetails;
 
 
 ////////// PROBLEM 2 //////////
@@ -35,7 +38,9 @@ var carDetails = {
 
 function greeting( obj ) {
   //Code Here
-  
+  let {firstName} = obj;
+  let {lastName} = obj;
+  let {title} = obj;
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
@@ -54,8 +59,19 @@ function greeting( obj ) {
 */
 
 //Code Here
+// function totalPopulation(let states = {
+//   utah: utah,
+//   california: california,
+//   texas: texas,
+//   arizona: arizona,
+// }){
+//   let {utah} = states;
+//   let {california} = states;
+//   let {texas} = states;
+//   let {arizona} = states;
+// }
 
-
+// totalPopulation(utah + california + texas + arizona)
 
 ////////// PROBLEM 4 //////////
 
@@ -68,7 +84,18 @@ function greeting( obj ) {
 */
 
 //Code Here
-
+// function ingredients() {
+//   let properties = {
+//     carb: '',
+//     fat: '',
+//     protein: '',
+//   }
+//   let {carb} = ingredients;
+//   let {fat} = ingredients;
+//   let {protein} = ingredients;
+//   Array.push(carb, fat, protein);
+//   return Array;
+// }
 
 
 ////////// PROBLEM 5 //////////
@@ -86,8 +113,38 @@ function greeting( obj ) {
 */
 
 //Code Here
+// function largeNumbers( {object} ) {
+//   let object = {
+//   first: num1,
+//   second: num2,
+//   third: num3,
+//   }
+//   if(num1 > object) {
+//     return num1;
+//   } else if(num2> object) {
+//     return num2;
+//   } else {
+//     return num3;
+//   }
+// }
 
+// function largeNumbers( {first, second, third} ) {
+//   if(first > second) {
+//     return first;
+//   } else if(first > third) {
+//     return first;
+//   }else if(second > first) {
+//     return second;
+//   }else if(second > third) {
+//     return second;
+//   } else if(third > first) {
+//     return third;
+//   } else {
+//     return third;
+//   }
+// }
 
+// largeNumbers(first, second, third);
 
 ////////// PROBLEM 6 //////////
 
@@ -98,5 +155,8 @@ function greeting( obj ) {
 */
 
 //Code Here
+// function numberGroups( {a, b, c} ) {
 
+
+// }
 
